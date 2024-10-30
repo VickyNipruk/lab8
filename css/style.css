@@ -1,0 +1,98 @@
+/* для усього сайту */
+body {
+    background-color: rgb(191, 236, 244);
+}
+
+
+h3 {
+    font-family: 'Caveat', sans-serif;
+    font-size: 50px;
+}
+
+/* для контейнера з назвою container */
+.container {
+    width: 98%;
+    height: auto;
+    display: flex;
+    background-color: azure;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* зображення Card #1 */
+.card-img-top {
+    width: auto;
+    height: 270px;
+}
+
+/* Card #2 */
+.row {
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(15, 106, 116);
+}
+
+.card-title {
+    color:rgb(15, 106, 116);
+}
+
+ .card {
+    margin-top: 20px;
+ }
+
+ .card-text {
+    font-size: 1.3rem;
+ }
+
+
+ /* Carousel */
+ .carousel-inner img {
+    height: 300px; 
+    width: 400px;
+    object-fit: cover; 
+ }
+
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(1);
+    transform: scale(1.5); 
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 191, 255); /* Зміна кольору при наведенні */
+}
+
+.navbar-nav .nav-link.disabled {
+    color:black; /* Колір для заблокованих посилань */
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Kablammo', sans-serif; 
+    font-size: 20px; 
+    color:black; 
+}
+
+.navbar-brand {
+    font-family: 'Kablammo', sans-serif; 
+    font-size: 30px; 
+    color: rgb(0, 191, 255);
+}
+
+.navbar-brand:hover {
+    color:rgb(0, 191, 255);
+}
+
+/* іконки соцмереж */
+.social-icons {
+    text-align: center; /* Центрування іконок */
+    margin-top: 20px; /* Відстань зверху */
+}
+.social-icons a {
+    margin: 0 10px; /* Відстань між іконками */
+    font-size: 24px; /* Розмір іконок */
+    color: #333; /* Колір іконок */
+    text-decoration: none; /* Вимкнення підкреслення */
+}
+.social-icons a:hover {
+    color: #007bff; /* Зміна кольору при наведенні */
+}
